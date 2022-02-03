@@ -20,6 +20,9 @@
 		AD17762727ABE42E0033C394 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17762527ABE42E0033C394 /* SignUpViewController.swift */; };
 		AD17762827ABE42E0033C394 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD17762627ABE42E0033C394 /* SignUpViewController.xib */; };
 		AD17762B27ABEDB80033C394 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17762A27ABEDB80033C394 /* BaseViewController.swift */; };
+		AD99C3C327AC1907000548F5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99C3C227AC1907000548F5 /* Post.swift */; };
+		AD99C3C727AC1A55000548F5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99C3C527AC1A55000548F5 /* PostTableViewCell.swift */; };
+		AD99C3C827AC1A55000548F5 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD99C3C627AC1A55000548F5 /* PostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		AD17762527ABE42E0033C394 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AD17762627ABE42E0033C394 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		AD17762A27ABEDB80033C394 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AD99C3C227AC1907000548F5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AD99C3C527AC1A55000548F5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AD99C3C627AC1A55000548F5 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,8 @@
 		AD17760427ABE3720033C394 /* InstagramDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AD99C3C427AC1A38000548F5 /* cell */,
+				AD99C3C127AC18E4000548F5 /* model */,
 				AD17761C27ABE3F40033C394 /* Controllers */,
 				AD17762927ABE4320033C394 /* apputils */,
 				AD17760727ABE3720033C394 /* SceneDelegate.swift */,
@@ -102,6 +110,23 @@
 				AD17760E27ABE3720033C394 /* InstagramDemo.xcdatamodeld */,
 			);
 			path = apputils;
+			sourceTree = "<group>";
+		};
+		AD99C3C127AC18E4000548F5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AD99C3C227AC1907000548F5 /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AD99C3C427AC1A38000548F5 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				AD99C3C527AC1A55000548F5 /* PostTableViewCell.swift */,
+				AD99C3C627AC1A55000548F5 /* PostTableViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +191,7 @@
 				AD17761527ABE3730033C394 /* LaunchScreen.storyboard in Resources */,
 				AD17761227ABE3730033C394 /* Assets.xcassets in Resources */,
 				AD17760D27ABE3720033C394 /* Main.storyboard in Resources */,
+				AD99C3C827AC1A55000548F5 /* PostTableViewCell.xib in Resources */,
 				AD17762827ABE42E0033C394 /* SignUpViewController.xib in Resources */,
 				AD17762027ABE4070033C394 /* HomeViewController.xib in Resources */,
 			);
@@ -181,10 +207,12 @@
 				AD17761F27ABE4070033C394 /* HomeViewController.swift in Sources */,
 				AD17762727ABE42E0033C394 /* SignUpViewController.swift in Sources */,
 				AD17762327ABE4190033C394 /* SignInViewController.swift in Sources */,
+				AD99C3C327AC1907000548F5 /* Post.swift in Sources */,
 				AD17761027ABE3720033C394 /* InstagramDemo.xcdatamodeld in Sources */,
 				AD17760627ABE3720033C394 /* AppDelegate.swift in Sources */,
 				AD17762B27ABEDB80033C394 /* BaseViewController.swift in Sources */,
 				AD17760827ABE3720033C394 /* SceneDelegate.swift in Sources */,
+				AD99C3C727AC1A55000548F5 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
